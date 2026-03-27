@@ -40,4 +40,8 @@ This behavior may cause confusion for users. Redirecting authenticated users awa
 
 ### Attachments
 
-<video src="../media/B1R1.mp4" controls preload></video>
+<video src="https://github.com/user-attachments/assets/40fa2fba-dcbd-4e25-bbf4-bf0c9d01f001" controls preload></video>
+
+
+
+
