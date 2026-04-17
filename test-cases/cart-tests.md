@@ -9,7 +9,7 @@
 ## Test Case: Add item to the cart
 
 **Test Case ID:** TC-CART-001  
-**Feature:** Cart
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -40,8 +40,8 @@ Not Executed
 
 ## Test Case: Navigate to cart and verify item details
 
-**Test Case ID:** TC-CART-002
-**Feature:** Cart
+**Test Case ID:** TC-CART-002  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -78,8 +78,8 @@ Not Executed
 
 ## Test Case: View empty cart
 
-**Test Case ID:** TC-CART-003
-**Feature:** Cart
+**Test Case ID:** TC-CART-003  
+**Feature:** Cart  
 **Priority:** Medium
 
 ### Preconditions
@@ -109,8 +109,8 @@ Not Executed
 
 ## Test Case: Remove item from the cart
 
-**Test Case ID:** TC-CART-004
-**Feature:** Cart
+**Test Case ID:** TC-CART-004  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -141,8 +141,8 @@ Not Executed
 
 ## Test Case: Change item quantity - positive
 
-**Test Case ID:** TC-CART-005
-**Feature:** Cart
+**Test Case ID:** TC-CART-005  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -174,8 +174,8 @@ Not Executed
 
 ## Test Case: Change item quantity - 0 (zero)
 
-**Test Case ID:** TC-CART-006
-**Feature:** Cart
+**Test Case ID:** TC-CART-006  
+**Feature:** Cart  
 **Priority:** Medium
 
 ### Preconditions
@@ -208,8 +208,8 @@ Not Executed
 
 ## Test Case: Change item quantity - negative
 
-**Test Case ID:** TC-CART-007
-**Feature:** Cart
+**Test Case ID:** TC-CART-007  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -240,8 +240,8 @@ Not Executed
 
 ## Test Case: Change item quantity - press enter to submit
 
-**Test Case ID:** TC-CART-008
-**Feature:** Cart
+**Test Case ID:** TC-CART-008  
+**Feature:** Cart  
 **Priority:** Low
 
 ### Preconditions
@@ -273,8 +273,8 @@ Not Executed
 
 ## Test Case: Click on the [Continue Shopping] link
 
-**Test Case ID:** TC-CART-09
-**Feature:** Cart
+**Test Case ID:** TC-CART-09  
+**Feature:** Cart  
 **Priority:** Low
 
 ### Preconditions
@@ -301,8 +301,8 @@ Not Executed
 
 ## Test Case: Navigate to Checkout and verify details
 
-**Test Case ID:** TC-CART-010
-**Feature:** Cart
+**Test Case ID:** TC-CART-010  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -337,8 +337,8 @@ Not Executed
 
 ## Test Case: View minicart and verify item details
 
-**Test Case ID:** TC-MINICART-001
-**Feature:** Cart
+**Test Case ID:** TC-MINICART-001  
+**Feature:** Cart  
 **Priority:** High
 
 ### Preconditions
@@ -376,8 +376,8 @@ Not Executed
 
 ## Test Case: View empty minicart
 
-**Test Case ID:** TC-MINICART-002
-**Feature:** Cart
+**Test Case ID:** TC-MINICART-002  
+**Feature:** Cart  
 **Priority:** Medium
 
 ### Preconditions
@@ -406,8 +406,8 @@ Not Executed
 
 ## Test Case: Remove item from the minicart
 
-**Test Case ID:** TC-MINICART-003
-**Feature:** Cart
+**Test Case ID:** TC-MINICART-003  
+**Feature:** Cart  
 **Priority:** Medium
 
 ### Preconditions
@@ -438,8 +438,8 @@ Not Executed
 
 ## Test Case: Change item quantity from the minicart
 
-**Test Case ID:** TC-MINICART-004
-**Feature:** Cart
+**Test Case ID:** TC-MINICART-004  
+**Feature:** Cart  
 **Priority:** Low
 
 ### Preconditions
@@ -474,8 +474,8 @@ Not Executed
 
 ## Test Case: Navigate to the cart page from the minicart component
 
-**Test Case ID:** TC-MINICART-005
-**Feature:** Cart
+**Test Case ID:** TC-MINICART-005  
+**Feature:** Cart  
 **Priority:** Medium
 
 ### Preconditions

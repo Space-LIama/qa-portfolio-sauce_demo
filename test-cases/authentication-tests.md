@@ -17,7 +17,7 @@
 
 1. Enter valid registered email into the email input field
 2. Enter valid password for the registered account into the password input field.
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -51,7 +51,7 @@ Not Executed
 
 1. Enter valid registered email into the email input field
 2. Enter invalid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -85,7 +85,7 @@ Not Executed
 
 1. Enter properly formatted invalid email into the email input field (e.g. test@mail.com)
 2. Enter valid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -119,7 +119,7 @@ Not Executed
 
 1. Enter invalid format email into the email input field (e.g. without '@' symbol : "testemail")
 2. Enter valid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -153,7 +153,7 @@ Not Executed
 
 1. Leave the email input field empty
 2. Enter valid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -187,7 +187,7 @@ Not Executed
 
 1. Enter valid registered email into the email input field
 2. Leave the password input field empty
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
@@ -221,7 +221,7 @@ Not Executed
 
 1. Enter valid registered email into the email input field
 2. Enter invalid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 4. Repeat steps 1-3 multiple times (10-20 times)
 
 ### Expected Result
@@ -257,7 +257,7 @@ Not Executed
 
 1. Enter valid registered email with several leading and trailing spaces into the email input field (e.g. " test@test.com ")
 2. Enter valid password into the password input field
-3. Click on [Sign In] button
+3. Click on the [Sign In] button
 
 ### Expected Result
 
