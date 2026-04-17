@@ -2,6 +2,10 @@
 
 ---
 
+## Cart page
+
+---
+
 ## Test Case: Add item to the cart
 
 **Test Case ID:** TC-CART-001  
@@ -10,18 +14,18 @@
 
 ### Preconditions
 
-- User is on product listing [page](https://sauce-demo.myshopify.com/collections/all)
+- User is on the product listing [page](https://sauce-demo.myshopify.com/collections/all)
 
 ### Test Steps
 
 1. Click on any available in-stock item
 2. Select item options if necessary
-3. Click on [Add to Cart] button
+3. Click on the [Add to Cart] button
 
 ### Expected Result
 
-- Item is added to cart
-- Animation for the added item is dispaled
+- Item is added to the cart
+- Animation for the added item is displayed
 - Header cart icon number is updated - item count increases
 
 ### Actual Result
@@ -47,7 +51,7 @@ Not Executed
 
 ### Test Steps
 
-1. Click on [Check Out] link from the page header
+1. Click on the [Check Out] link from the page header
 
 ### Expected Result
 
@@ -58,8 +62,8 @@ Not Executed
   - Product image
   - Product description
   - Price
-  - Quantitiy
-  - Total price considering quantity
+  - Quantity
+  - Total price calculated based on quantity
 - Product name is displayed as a link to the product description page
 
 ### Actual Result
@@ -85,13 +89,13 @@ Not Executed
 
 ### Test Steps
 
-1. Click on [Check Out] link from the page header
+1. Click on the [Check Out] link from the page header
 
 ### Expected Result
 
 - User is redirected to the cart page
 - Message "It appears that your cart is currently empty! Continue Shopping." is displayed
-- Text "Continue shoping." is displayed as a link to the "Products" page
+- Text "Continue shopping." is displayed as a link to the "Products" page
 
 ### Actual Result
 
@@ -116,14 +120,14 @@ Not Executed
 
 ### Test Steps
 
-1. Click on [x] link next to any item in cart
+1. Click on the [x] link next to any item in the cart
 
 ### Expected Result
 
-- Item is removed from cart
+- Item is removed from the cart
 - Cart view is updated according to the new number of items
-- Total order price is updated according to the new number of items
-- Header cart icon number is updated according to the new number of items in cart
+- Total order price is updated
+- Header cart icon number is updated
 
 ### Actual Result
 
@@ -148,15 +152,15 @@ Not Executed
 
 ### Test Steps
 
-1. Click on the quantity (Qty) input field for any item in cart
-2. Enter new different positive quantity number into the input field
-3. Click on [Update] button
+1. Click on the quantity (Qty) input field for any item in the cart
+2. Enter new different positive number into the input field
+3. Click on the [Update] button
 
 ### Expected Result
 
 - Item quantity number is modified
-- Item total and order total prices are updated according to the new quantities
-- Header cart icon number is updated according to the new number of items in cart
+- Item total and order total prices are updated according to the new item quantity
+- Header cart icon number is updated according to the new number of items
 
 ### Actual Result
 
@@ -181,16 +185,16 @@ Not Executed
 
 ### Test Steps
 
-1. Click on the quantity (Qty) input field for any item in cart
+1. Click on the quantity (Qty) input field for any item in the cart
 2. Enter 0 (zero) into the input field
-3. Click on [Update] button
+3. Click on the [Update] button
 
 ### Expected Result
 
 - Item is removed from cart
 - Cart view is updated according to the new number of items
-- Total order price is updated according to the new number of items
-- Header cart icon number is updated according to the new number of items in cart
+- Total order price is updated
+- Header cart icon number is updated
 
 ### Actual Result
 
@@ -215,9 +219,9 @@ Not Executed
 
 ### Test Steps
 
-1. Click on the quantity (Qty) input field for any item in cart
-2. Enter any negative number into the input field
-3. Click on [Update] button
+1. Click on the quantity (Qty) input field for any item in the cart
+2. Enter negative number into the input field
+3. Click on the [Update] button
 
 ### Expected Result
 
@@ -234,28 +238,121 @@ Not Executed
 
 ---
 
-MINI CART
+## Test Case: Change item quantity - press enter to submit
+
+**Test Case ID:** TC-CART-008
+**Feature:** Cart
+**Priority:** Low
+
+### Preconditions
+
+- User is on the cart page
+- User has at least 1 item in the cart
+
+### Test Steps
+
+1. Click on the quantity (Qty) input field for any item in the cart
+2. Enter any other positive number into the input field
+3. Press on [Enter](on Windows) or [Return](on MacOS) keyboard key
+
+### Expected Result
+
+- Item quantity number is modified
+- Item total and order total prices are updated according to the new item quantity
+- Header cart icon number is updated according to the new number of items
+
+### Actual Result
+
+(To be filled during testing)
+
+### Status
+
+Not Executed
 
 ---
 
-## Test Case: View cart and verify item details
+## Test Case: Click on the [Continue Shopping] link
 
-**Test Case ID:** TC-CART-002
+**Test Case ID:** TC-CART-09
+**Feature:** Cart
+**Priority:** Low
+
+### Preconditions
+
+- User is on the cart page
+
+### Test Steps
+
+1. Click on the [Continue Shopping] link
+
+### Expected Result
+
+- User is redirected to the default products listing page
+
+### Actual Result
+
+(To be filled during testing)
+
+### Status
+
+Not Executed
+
+---
+
+## Test Case: Navigate to Checkout and verify details
+
+**Test Case ID:** TC-CART-010
 **Feature:** Cart
 **Priority:** High
 
 ### Preconditions
 
-- User is on any page with access to the cart
+- User is on the cart page
 - User has at least 1 item in the cart
 
 ### Test Steps
 
-1. Click on [My Cart] link from the page header
+1. Click on the [Check Out] button
 
 ### Expected Result
 
-- Cart component is displayed
+- User is redirected to the Checkout page
+- All items from the cart are displayed
+- Correct items' quantity numbers are displayed
+- Subtotal price is calculated correctly
+
+### Actual Result
+
+(To be filled during testing)
+
+### Status
+
+Not Executed
+
+---
+
+## Minicart component
+
+---
+
+## Test Case: View minicart and verify item details
+
+**Test Case ID:** TC-MINICART-001
+**Feature:** Cart
+**Priority:** High
+
+### Preconditions
+
+- User is on any page with access to the minicart component
+- User has at least 1 item in the cart
+
+### Test Steps
+
+1. Click on the [My Cart] link from the page header
+
+### Expected Result
+
+- Minicart component is displayed
 - All items added to the cart are listed
 - Each item displays:
   - Product name
@@ -263,6 +360,7 @@ MINI CART
   - Product description
   - Price
   - Quantitiy
+  - Subtotal price calculated from item quantity
 - Product name is displayed as clickable link
 - Clicking the product name redirects to the product description page
 
@@ -276,24 +374,24 @@ Not Executed
 
 ---
 
-## Test Case: View empty cart
+## Test Case: View empty minicart
 
-**Test Case ID:** TC-CART-003
+**Test Case ID:** TC-MINICART-002
 **Feature:** Cart
 **Priority:** Medium
 
 ### Preconditions
 
-- User is on any page with access to the cart
+- User is on any page with access to the minicart component
 - User has no items in the cart
 
 ### Test Steps
 
-1. Click on [My Cart] link from the page header
+1. Click on the [My Cart] link from the page header
 
 ### Expected Result
 
-- Cart component is displayed
+- Minicart component is displayed
 - Message "Your cart is empty." is displayed
 
 ### Actual Result
@@ -306,27 +404,27 @@ Not Executed
 
 ---
 
-## Test Case: Remove item from the cart
+## Test Case: Remove item from the minicart
 
-**Test Case ID:** TC-CART-004
+**Test Case ID:** TC-MINICART-003
 **Feature:** Cart
-**Priority:** High
+**Priority:** Medium
 
 ### Preconditions
 
-- User is on any page with access to the cart
+- User is on any page with access to the minicart component
 - User has at least 1 item in the cart
 
 ### Test Steps
 
-1. Click on [My Cart] link from the page header
-2. Click on [Remove] link from any item in cart
+1. Click on the [My Cart] link from the page header
+2. Click on the [Remove] link from any item in cart
 
 ### Expected Result
 
 - Item is removed from the cart
 - Cart view is updated according to the new number of items
-- Cart icon number is updated - item count decreases
+- Header cart icon number is updated - item count decreases
 
 ### Actual Result
 
@@ -338,36 +436,62 @@ Not Executed
 
 ---
 
-## Test Case: Change item quantity - positive
+## Test Case: Change item quantity from the minicart
 
-**Test Case ID:** TC-CART-005
+**Test Case ID:** TC-MINICART-004
 **Feature:** Cart
-**Priority:** High
+**Priority:** Low
 
 ### Preconditions
 
-- User is on any page with access to the cart
+- User is on any page with access to the minicart component
 - User has at least 1 item in the cart
 
 ### Test Steps
 
-1. Click on [My Cart] link from the page header
-2. Click on the quantity input field from any item in cart
-3. Change the quantity to any different positive number
-4. Press [Enter]\(for Windows) or [Return]\(for MacOS) keyboard key
+1. Click on the [My Cart] link from the page header
+2. Click on the quantity input field for any item in cart
+3. Enter any other positive number into the input field
+4. Press [Enter](for Windows) or [Return](for MacOS) keyboard key
 
 ### Expected Result
 
-- Cart component is displayed
-- All items added to the cart are listed
-- Each item displays:
-  - Product name
-  - Product image
-  - Product description
-  - Price
-  - Quantitiy
-- Product name is displayed as clickable link
-- Clicking the product name redirects to the product description page
+- User is redirected to the cart page
+- All items from the cart are listed
+- Modified item is displayed with a new quantity number
+- Item total and order total prices are displayed according to the new item quantity
+- Header cart icon number is updated according to the new number of items
+
+### Actual Result
+
+(To be filled during testing)
+
+### Status
+
+Not Executed
+
+---
+
+## Test Case: Navigate to the cart page from the minicart component
+
+**Test Case ID:** TC-MINICART-005
+**Feature:** Cart
+**Priority:** Medium
+
+### Preconditions
+
+- User is on any page with access to the minicart component
+- User has at least 1 item in the cart
+
+### Test Steps
+
+1. Click on the [My Cart] link from the page header
+2. Click on the [Check Out] button
+
+### Expected Result
+
+- User is redirected to the cart page
+- All items from the cart are listed
 
 ### Actual Result
 
